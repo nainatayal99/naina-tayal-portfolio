@@ -138,30 +138,34 @@ a{
     transform:translateY(-5px);
 }
 .hero{
-    display: flex;
-    justify-content: space-between;
-    gap: 60px;
-    flex-wrap: wrap;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:80px;
+    flex-wrap:nowrap;
 }
 
 .hero-image{
-    flex: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    flex:1;
+    display:flex;
+    justify-content:center;
+    align-items:center;
 }
 
 .hero-content{
-    flex: 1;
+    flex:1;
+    max-width:650px;
 }
 
 .hero-image img{
-    width: 380px;
-    height: 380px;
-    border-radius: 50%;
-    object-fit: cover;
-    box-shadow: 0 0 30px rgba(139, 92, 246, 0.5);
+    width:420px;
+    height:420px;
+    border-radius:50%;
+    object-fit:cover;
+    border:6px solid #8b5cf6;
+    box-shadow:0 0 40px rgba(139,92,246,.6);
 }
+
 /* SECTION COMMON */
 
 section{
