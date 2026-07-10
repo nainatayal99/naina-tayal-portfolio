@@ -137,6 +137,31 @@ a{
 .btn2:hover{
     transform:translateY(-5px);
 }
+.hero{
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+    flex-wrap: wrap;
+}
+
+.hero-image{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-content{
+    flex: 1;
+}
+
+.hero-image img{
+    width: 380px;
+    height: 380px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 0 30px rgba(139, 92, 246, 0.5);
+}
 /* SECTION COMMON */
 
 section{
