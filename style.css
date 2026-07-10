@@ -78,19 +78,22 @@ a{
 }
 
 .hero-content h1{
-    font-size:65px;
+    font-size:72px;
     margin:15px 0;
+    line-height:1.1;
 }
 
 .hero-content h2{
-    font-size:30px;
-    color:#ddd;
+    font-size:34px;
+    color:#cfcfcf;
+    margin-bottom:20px;
 }
 
 .hero-content p{
     margin:25px 0;
-    line-height:1.8;
-    color:#bbb;
+    line-height:2;
+    color:#bdbdbd;
+    font-size:18px;
 }
 .hero-buttons{
     margin-top:30px;
