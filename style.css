@@ -10,7 +10,10 @@ html{
 }
 
 body{
-    background:#0b0b16;
+    background:
+        radial-gradient(circle at top right, rgba(139,92,246,.18), transparent 30%),
+        radial-gradient(circle at bottom left, rgba(59,130,246,.12), transparent 35%),
+        #0b0b16;
     color:white;
 }
 
@@ -271,8 +274,9 @@ section{
 
 
 .service-card:hover{
-    transform:translateY(-10px);
+    transform:translateY(-12px);
     border-color:#8b5cf6;
+    box-shadow:0 20px 40px rgba(139,92,246,.25);
 }
 
 
