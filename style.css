@@ -181,13 +181,16 @@ section{
 }
 
 .title h2{
-    font-size:40px;
-    color:#ffffff;
+    font-size:48px;
+    font-weight:700;
+    color:#fff;
     margin-bottom:10px;
 }
 
 .title p{
-    color:#aaa;
+    color:#8b5cf6;
+    font-size:18px;
+    letter-spacing:1px;
 }
 
 
@@ -425,10 +428,11 @@ section{
 /* FOOTER */
 
 footer{
-    padding:25px;
+    padding:35px;
     text-align:center;
-    background:#070711;
-    color:#aaa;
+    background:#080814;
+    color:#bbb;
+    border-top:1px solid #26263d;
 }
 
 
