@@ -557,3 +557,28 @@ footer{
     display:block;
     margin:0 auto 15px;
 }
+
+/* PROJECTS */
+
+.projects img{
+    width:100%;
+    height:220px;
+    object-fit:cover;
+    border-radius:12px;
+    margin-bottom:20px;
+    border:2px solid #8b5cf6;
+}
+
+.projects .service-card{
+    overflow:hidden;
+}
+
+.projects .service-card h3{
+    margin-bottom:15px;
+    color:#8b5cf6;
+}
+
+.projects .service-card p{
+    color:#ccc;
+    line-height:1.7;
+}
