@@ -188,6 +188,34 @@ a{
     box-shadow:0 0 40px rgba(139,92,246,.6);
 }
 
+.hero-image img:hover{
+    transform:scale(1.05);
+    transition:0.4s ease;
+}
+
+.service-card:hover,
+.skill-card:hover,
+.card:hover,
+.tool:hover{
+    transform:translateY(-10px);
+}
+
+.title h2{
+    position:relative;
+    display:inline-block;
+}
+
+.title h2::after{
+    content:"";
+    width:60%;
+    height:4px;
+    background:#8b5cf6;
+    position:absolute;
+    left:20%;
+    bottom:-10px;
+    border-radius:10px;
+}
+
 /* SECTION COMMON */
 
 section{
