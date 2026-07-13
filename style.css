@@ -634,3 +634,26 @@ footer{
     opacity:1;
     transform:translateY(0);
 }
+
+#topBtn{
+    position:fixed;
+    bottom:25px;
+    right:25px;
+    width:55px;
+    height:55px;
+    border:none;
+    border-radius:50%;
+    background:#8b5cf6;
+    color:#fff;
+    font-size:22px;
+    cursor:pointer;
+    display:none;
+    box-shadow:0 0 20px rgba(139,92,246,.5);
+    transition:0.3s;
+    z-index:999;
+}
+
+#topBtn:hover{
+    transform:translateY(-5px);
+    background:#6d28d9;
+}
