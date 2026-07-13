@@ -22,6 +22,12 @@ document.querySelectorAll('a[href^="#"]').forEach(link => {
 
 const sections = document.querySelectorAll("section");
 
+sections.forEach(section => {
+    section.style.opacity = "0";
+    section.style.transform = "translateY(60px)";
+    section.style.transition = "all 0.8s ease";
+});
+
 window.addEventListener("scroll", () => {
 
     sections.forEach(section => {
