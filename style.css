@@ -186,6 +186,7 @@ a{
     object-fit:cover;
     border:6px solid #8b5cf6;
     box-shadow:0 0 40px rgba(139,92,246,.6);
+    animation: float 4s ease-in-out infinite;
 }
 
 .hero-image img:hover{
@@ -609,4 +610,16 @@ footer{
 .projects .service-card p{
     color:#ccc;
     line-height:1.7;
+}
+
+@keyframes float{
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-15px);
+    }
+    100%{
+        transform: translateY(0);
+    }
 }
